@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupos — Copa do Mundo 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🏆</span>
+        <div>
+          <span class="logo-text">Copa do Mundo</span>
+          <span class="logo-sub">FIFA World Cup 2026</span>
+        </div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="grupos.html" class="ativo">Grupos</a></li>
+          <li><a href="historia.html">História</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO -->
+  <main>
+
+    <h2 class="titulo-secao">Grupos da Copa 2026</h2>
+    <div class="divisor"></div>
+    <p class="subtitulo-secao">
+      48 seleções divididas em 12 grupos — clique em um país para saber mais! 🌍
+    </p>
+
+    <div class="grupos-grid">
+
+      <!-- GRUPO A -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo A</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('México')">
+            <img src="https://flagcdn.com/w80/mx.png" alt="México">
+            <span>México</span>
+          </li>
+          <li onclick="infoSelecao('África do Sul')">
+            <img src="https://flagcdn.com/w80/za.png" alt="África do Sul">
+            <span>África do Sul</span>
+          </li>
+          <li onclick="infoSelecao('Coreia do Sul')">
+            <img src="https://flagcdn.com/w80/kr.png" alt="Coreia do Sul">
+            <span>Coreia do Sul</span>
+          </li>
+          <li onclick="infoSelecao('República Tcheca')">
+            <img src="https://flagcdn.com/w80/cz.png" alt="República Tcheca">
+            <span>República Tcheca</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO B -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo B</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Canadá')">
+            <img src="https://flagcdn.com/w80/ca.png" alt="Canadá">
+            <span>Canadá</span>
+          </li>
+          <li onclick="infoSelecao('Bósnia')">
+            <img src="https://flagcdn.com/w80/ba.png" alt="Bósnia">
+            <span>Bósnia e Herzegovina</span>
+          </li>
+          <li onclick="infoSelecao('Catar')">
+            <img src="https://flagcdn.com/w80/qa.png" alt="Catar">
+            <span>Catar</span>
+          </li>
+          <li onclick="infoSelecao('Suíça')">
+            <img src="https://flagcdn.com/w80/ch.png" alt="Suíça">
+            <span>Suíça</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO C -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo C</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Brasil')">
+            <img src="https://flagcdn.com/w80/br.png" alt="Brasil">
+            <span>Brasil 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Marrocos')">
+            <img src="https://flagcdn.com/w80/ma.png" alt="Marrocos">
+            <span>Marrocos</span>
+          </li>
+          <li onclick="infoSelecao('Haiti')">
+            <img src="https://flagcdn.com/w80/ht.png" alt="Haiti">
+            <span>Haiti</span>
+          </li>
+          <li onclick="infoSelecao('Escócia')">
+            <img src="https://flagcdn.com/w80/gb-sct.png" alt="Escócia">
+            <span>Escócia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO D -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo D</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Estados Unidos')">
+            <img src="https://flagcdn.com/w80/us.png" alt="Estados Unidos">
+            <span>Estados Unidos</span>
+          </li>
+          <li onclick="infoSelecao('Paraguai')">
+            <img src="https://flagcdn.com/w80/py.png" alt="Paraguai">
+            <span>Paraguai</span>
+          </li>
+          <li onclick="infoSelecao('Austrália')">
+            <img src="https://flagcdn.com/w80/au.png" alt="Austrália">
+            <span>Austrália</span>
+          </li>
+          <li onclick="infoSelecao('Turquia')">
+            <img src="https://flagcdn.com/w80/tr.png" alt="Turquia">
+            <span>Turquia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO E -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo E</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Alemanha')">
+            <img src="https://flagcdn.com/w80/de.png" alt="Alemanha">
+            <span>Alemanha 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Curaçao')">
+            <img src="https://flagcdn.com/w80/cw.png" alt="Curaçao">
+            <span>Curaçao</span>
+          </li>
+          <li onclick="infoSelecao('Costa do Marfim')">
+            <img src="https://flagcdn.com/w80/ci.png" alt="Costa do Marfim">
+            <span>Costa do Marfim</span>
+          </li>
+          <li onclick="infoSelecao('Equador')">
+            <img src="https://flagcdn.com/w80/ec.png" alt="Equador">
+            <span>Equador</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO F -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo F</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Holanda')">
+            <img src="https://flagcdn.com/w80/nl.png" alt="Holanda">
+            <span>Holanda</span>
+          </li>
+          <li onclick="infoSelecao('Japão')">
+            <img src="https://flagcdn.com/w80/jp.png" alt="Japão">
+            <span>Japão</span>
+          </li>
+          <li onclick="infoSelecao('Suécia')">
+            <img src="https://flagcdn.com/w80/se.png" alt="Suécia">
+            <span>Suécia</span>
+          </li>
+          <li onclick="infoSelecao('Tunísia')">
+            <img src="https://flagcdn.com/w80/tn.png" alt="Tunísia">
+            <span>Tunísia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO G -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo G</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Bélgica')">
+            <img src="https://flagcdn.com/w80/be.png" alt="Bélgica">
+            <span>Bélgica</span>
+          </li>
+          <li onclick="infoSelecao('Egito')">
+            <img src="https://flagcdn.com/w80/eg.png" alt="Egito">
+            <span>Egito</span>
+          </li>
+          <li onclick="infoSelecao('Irã')">
+            <img src="https://flagcdn.com/w80/ir.png" alt="Irã">
+            <span>Irã</span>
+          </li>
+          <li onclick="infoSelecao('Nova Zelândia')">
+            <img src="https://flagcdn.com/w80/nz.png" alt="Nova Zelândia">
+            <span>Nova Zelândia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO H -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo H</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Espanha')">
+            <img src="https://flagcdn.com/w80/es.png" alt="Espanha">
+            <span>Espanha 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Cabo Verde')">
+            <img src="https://flagcdn.com/w80/cv.png" alt="Cabo Verde">
+            <span>Cabo Verde</span>
+          </li>
+          <li onclick="infoSelecao('Arábia Saudita')">
+            <img src="https://flagcdn.com/w80/sa.png" alt="Arábia Saudita">
+            <span>Arábia Saudita</span>
+          </li>
+          <li onclick="infoSelecao('Uruguai')">
+            <img src="https://flagcdn.com/w80/uy.png" alt="Uruguai">
+            <span>Uruguai</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO I -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo I</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('França')">
+            <img src="https://flagcdn.com/w80/fr.png" alt="França">
+            <span>França 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Senegal')">
+            <img src="https://flagcdn.com/w80/sn.png" alt="Senegal">
+            <span>Senegal</span>
+          </li>
+          <li onclick="infoSelecao('Bolívia')">
+            <img src="https://flagcdn.com/w80/bo.png" alt="Bolívia">
+            <span>Bolívia / Iraque</span>
+          </li>
+          <li onclick="infoSelecao('Noruega')">
+            <img src="https://flagcdn.com/w80/no.png" alt="Noruega">
+            <span>Noruega</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO J -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo J</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Argentina')">
+            <img src="https://flagcdn.com/w80/ar.png" alt="Argentina">
+            <span>Argentina 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Argélia')">
+            <img src="https://flagcdn.com/w80/dz.png" alt="Argélia">
+            <span>Argélia</span>
+          </li>
+          <li onclick="infoSelecao('Áustria')">
+            <img src="https://flagcdn.com/w80/at.png" alt="Áustria">
+            <span>Áustria</span>
+          </li>
+          <li onclick="infoSelecao('Jordânia')">
+            <img src="https://flagcdn.com/w80/jo.png" alt="Jordânia">
+            <span>Jordânia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO K -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo K</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Portugal')">
+            <img src="https://flagcdn.com/w80/pt.png" alt="Portugal">
+            <span>Portugal 🌟</span>
+          </li>
+          <li onclick="infoSelecao('RD Congo')">
+            <img src="https://flagcdn.com/w80/cd.png" alt="RD Congo">
+            <span>RD Congo</span>
+          </li>
+          <li onclick="infoSelecao('Uzbequistão')">
+            <img src="https://flagcdn.com/w80/uz.png" alt="Uzbequistão">
+            <span>Uzbequistão</span>
+          </li>
+          <li onclick="infoSelecao('Colômbia')">
+            <img src="https://flagcdn.com/w80/co.png" alt="Colômbia">
+            <span>Colômbia</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- GRUPO L -->
+      <div class="grupo-card">
+        <div class="grupo-header">
+          <h3>⚽ Grupo L</h3>
+        </div>
+        <ul class="grupo-lista">
+          <li onclick="infoSelecao('Inglaterra')">
+            <img src="https://flagcdn.com/w80/gb-eng.png" alt="Inglaterra">
+            <span>Inglaterra 🌟</span>
+          </li>
+          <li onclick="infoSelecao('Croácia')">
+            <img src="https://flagcdn.com/w80/hr.png" alt="Croácia">
+            <span>Croácia</span>
+          </li>
+          <li onclick="infoSelecao('Gana')">
+            <img src="https://flagcdn.com/w80/gh.png" alt="Gana">
+            <span>Gana</span>
+          </li>
+          <li onclick="infoSelecao('Panamá')">
+            <img src="https://flagcdn.com/w80/pa.png" alt="Panamá">
+            <span>Panamá</span>
+          </li>
+        </ul>
+      </div>
+
+    </div><!-- fim grupos-grid -->
+
+    <p style="text-align:center; color: var(--cinza); margin-top: 36px; font-size: 0.9rem;">
+      🌟 = Candidatos ao título &nbsp;|&nbsp; Clique nos países para saber mais!
+    </p>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>⚽ <span>Copa do Mundo 2026</span> — Site desenvolvido por Daniel Amaral, Matheus Schellerg e Levi Amorim</p>
+    <p style="margin-top:6px; font-size: 2rem;">😎🐷🥶</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
